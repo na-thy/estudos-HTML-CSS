@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(56, 55, 52, 0.363);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+h1,h2 {
+    font-family: Arial, Helvetica, sans-serif;        
+}
+h1 {
+    border-bottom: 3px solid dimgrey; /* border bottom abre uma célula com uma linha embaixo */
+    background-color: rgba(27, 26, 26, 0.349);
+    color: gainsboro;
+    padding: 5px;
+    text-align: center;
+}
+h2 {
+    border-top: 1px solid rgb(100, 100, 100);
+    border-bottom: 1px solid rgb(100, 100, 100);
+    background-color: rgba(27, 26, 26, 0.349);
+    color: gainsboro;
+    padding-left: 5px;
+    margin: 0 0 0 -15px;
+    font-weight: normal;
+}
+.secao {
+	background-color: dimgrey;
+    padding-left: 15px;
+    border: rgb(100, 100, 100) 1px dotted;
+	margin-top: 1em;
+}
+.url, .email {
+	display: block;
+}
+.email:after {
+	content: url('img/mail.png');
+	margin-left:0.3em;
+}
+.url:after {
+	content: url('img/url.png');
+	margin-left:0.3em;
+}
+td {width: 20em; text-align:center}
+
+tr.par {
+	background-color: #87cefa63;
+}
+
+tr.impar {
+	background-color: #f4a5606e;
+}
+
+td.ruim {color: rgb(202, 29, 29);}
+td.regular {color: rgb(226, 152, 152);}
+td.bom {color: rgb(91, 158, 65);}
+td.otimo {color: rgb(10, 80, 128);}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+	width: 15em;
+}
+form label {
+	display: block;
+}
